@@ -1,6 +1,6 @@
 {
   "name": "@springworks/test-harness",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Setup Chai and Sinon with plugins",
   "main": "index.js",
   "author": "Springworks",
