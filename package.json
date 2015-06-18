@@ -10,10 +10,6 @@
     "lint": "eslint .",
     "coveralls": "cat ./coverage/lcov.info | coveralls"
   },
-  "peerDependencies": {
-    "should": "^7.0.1",
-    "mocha": "^2.2.5"
-  },
   "dependencies": {
     "should": "^7.0.1",
     "should-http": "^0.0.4",
