@@ -1,9 +1,8 @@
 [![NPM Version](https://img.shields.io/npm/v/@springworks/test-harness.svg?style=flat-square)](https://www.npmjs.org/package/@springworks/test-harness)
 [![Build Status](https://img.shields.io/travis/Springworks/node-test-harness.svg?style=flat-square)](https://travis-ci.org/Springworks/node-test-harness)
 [![Coverage Status](https://img.shields.io/coveralls/Springworks/node-test-harness.svg?style=flat-square)](https://coveralls.io/r/Springworks/node-test-harness)
-
 [![Dependencies](http://img.shields.io/david/Springworks/node-test-harness.svg?style=flat-square)](https://david-dm.org/Springworks/node-test-harness#view=table)
-[![Dev Dependencies](http://img.shields.io/david/dev/Springworks/node-test-harness.svg?style=flat-square)](https://david-dm.org/Springworks/node-test-harness#info=devDependencies&view=table)
+[![Dev Dependencies](http://img.shields.io/david/dev/Springworks/node-test-harness.svg?style=flat-square&label=dev+dependencies)](https://david-dm.org/Springworks/node-test-harness#info=devDependencies&view=table)
 
 
 # test-harness
@@ -20,7 +19,6 @@ Setup `should` and `sinon` with plugins.
 ## Install
 
 ```
-$ npm i -D mocha should
 $ npm i -D @springworks/test-harness
 ```
 
@@ -30,7 +28,7 @@ $ npm i -D @springworks/test-harness
 Require `@springworks/test-harness` using the `--require` option when running tests with mocha.
 
 ```
-$ mocha --require @springworks/test-harness test
+$ mocha --require @springworks/test-harness
 ```
 
 The `--require` option can be added to a [mocha.opts](http://mochajs.org/#mocha.opts) file.

@@ -1,6 +1,0 @@
-instrumentation:
-    include-all-sources: true
-reporting:
-    print: summary
-    reports:
-        - lcov
