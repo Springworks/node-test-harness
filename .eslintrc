@@ -1,3 +1,6 @@
 {
-  "extends": "springworks/babel"
+  "extends": "springworks/babel",
+  "rules": {
+    "no-restricted-modules": 0
+  }
 }
