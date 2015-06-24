@@ -31,10 +31,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Springworks/node-test-harness.git"
+    "url": "git+https://github.com/Springworks/node-test-harness.git"
   },
   "bugs": {
     "url": "https://github.com/Springworks/node-test-harness/issues"
   },
-  "homepage": "https://github.com/Springworks/node-test-harness"
+  "homepage": "https://github.com/Springworks/node-test-harness#readme"
 }
