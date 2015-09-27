@@ -11,22 +11,22 @@
     "coveralls": "cat ./coverage/lcov.info | coveralls"
   },
   "dependencies": {
-    "should": "^7.0.1",
-    "should-http": "^0.0.4",
-    "should-promised": "^0.3.0",
-    "should-sinon": "^0.0.3",
-    "sinon": "^1.15.3"
+    "should": "7.1.0",
+    "should-http": "0.0.4",
+    "should-promised": "0.3.1",
+    "should-sinon": "0.0.3",
+    "sinon": "1.17.1"
   },
   "devDependencies": {
-    "babel": "^5.6.5",
-    "babel-eslint": "^3.1.18",
-    "coveralls": "^2.11.2",
+    "babel": "5.8.23",
+    "babel-eslint": "3.1.30",
+    "coveralls": "2.11.4",
     "eslint": "0.23.0",
     "eslint-config-springworks": "2.1.2",
     "eslint-plugin-mocha": "0.3.0",
-    "eslint-plugin-should-promised": "^1.0.3",
-    "istanbul": "^0.3.16",
-    "mocha": "^2.2.5"
+    "eslint-plugin-should-promised": "1.0.4",
+    "istanbul": "0.3.21",
+    "mocha": "2.3.3"
   },
   "license": "MIT",
   "repository": {
