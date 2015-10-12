@@ -15,7 +15,8 @@
     "should-http": "0.0.4",
     "should-promised": "0.3.1",
     "should-sinon": "0.0.3",
-    "sinon": "1.17.1"
+    "sinon": "1.17.1",
+    "mocha-teamcity-reporter": "1.0.0"
   },
   "devDependencies": {
     "babel": "5.8.23",
