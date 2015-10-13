@@ -1,6 +1,6 @@
 {
   "name": "@springworks/test-harness",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Setup should and sinon with plugins",
   "main": "index.js",
   "author": "Springworks",
