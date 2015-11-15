@@ -27,7 +27,7 @@
     "eslint-plugin-mocha": "1.1.0",
     "eslint-plugin-should-promised": "1.0.5",
     "istanbul": "0.4.0",
-    "mocha": "2.3.3"
+    "mocha": "2.3.4"
   },
   "license": "MIT",
   "repository": {
