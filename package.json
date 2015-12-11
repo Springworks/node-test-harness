@@ -20,7 +20,7 @@
   "devDependencies": {
     "babel": "5.8.34",
     "babel-eslint": "4.1.6",
-    "coveralls": "2.11.4",
+    "coveralls": "2.11.6",
     "eslint": "1.10.3",
     "eslint-config-springworks": "5.0.0",
     "eslint-plugin-import": "0.11.0",
