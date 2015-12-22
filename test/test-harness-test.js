@@ -1,4 +1,4 @@
-describe('test-harness', function() {
+describe('test/test-harness-test.js', function() {
 
   describe('globals', function() {
 
