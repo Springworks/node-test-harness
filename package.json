@@ -11,7 +11,7 @@
     "coveralls": "cat ./coverage/lcov.info | coveralls"
   },
   "dependencies": {
-    "should": "8.0.2",
+    "should": "8.1.0",
     "should-http": "0.0.4",
     "should-sinon": "0.0.3",
     "sinon": "1.17.2",
