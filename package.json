@@ -13,7 +13,7 @@
   "dependencies": {
     "should": "8.2.1",
     "should-http": "0.0.4",
-    "should-sinon": "0.0.3",
+    "should-sinon": "0.0.4",
     "sinon": "1.17.3",
     "mocha-teamcity-reporter": "1.0.0"
   },
