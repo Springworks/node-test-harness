@@ -8,6 +8,8 @@
     "should-promised"
   ],
   "rules": {
+    "func-style": 0,
+    "prefer-template": 0,
     "should-promised/return-promise": 2
   }
 }

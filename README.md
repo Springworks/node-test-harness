@@ -12,7 +12,6 @@ Setup `should` and `sinon` with plugins.
 - Add [should](https://www.npmjs.com/package/should) to the global scope.
 - Add [sinon](https://www.npmjs.com/package/sinon) to the global scope.
 - Install the [should-sinon](https://www.npmjs.com/package/should-sinon) plugin.
-- Install the [should-promised](https://www.npmjs.com/package/should-promised) plugin.
 - Install the [should-http](https://www.npmjs.com/package/should-http) plugin.
 
 
@@ -51,23 +50,27 @@ Example `mocha.opts` file:
 No need to require `should`, `sinon` or any of the plugins.
 
 ```js
-describe('test-harness', function() {
+const autorestoredSandbox = require('@springworks/test-harness/autorestored-sandbox');
 
-  describe('globals', function() {
+describe('test-harness', () => {
 
-    it('should expose should as a global', function() {
+  const sandbox = autorestoredSandbox();
+
+  describe('globals', () => {
+
+    it('should expose should as a global', () => {
       should.exist(should);
     });
 
-    it('should expose sinon as a global', function() {
+    it('should expose sinon as a global', () => {
       should.exist(sinon);
     });
 
   });
 
-  describe('should-sinon plugin', function() {
+  describe('asserting sinon fakes', () => {
 
-    it('should use the should-sinon plugin', function() {
+    it('should use the should-sinon plugin', () => {
       const test_stub = sinon.stub().returns('hello');
       test_stub().should.eql('hello');
       test_stub.should.have.callCount(1);
@@ -75,17 +78,17 @@ describe('test-harness', function() {
 
   });
 
-  describe('should-promised plugin', function() {
+  describe('asserting promises', () => {
 
-    it('should use the should-promised plugin', function() {
+    it('should use the should-promised plugin', () => {
       return Promise.resolve().should.be.fulfilled();
     });
 
   });
 
-  describe('should-http plugin', function() {
+  describe('asserting http requests', () => {
 
-    it('should use the should-http plugin', function() {
+    it('should use the should-http plugin', () => {
       ({ statusCode: 200 }).should.have.status(200);
     });
 
