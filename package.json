@@ -18,7 +18,7 @@
     "mocha-teamcity-reporter": "1.0.0"
   },
   "devDependencies": {
-    "babel-eslint": "6.0.3",
+    "babel-eslint": "6.0.4",
     "coveralls": "2.11.9",
     "eslint": "2.8.0",
     "eslint-config-springworks": "7.0.1",
