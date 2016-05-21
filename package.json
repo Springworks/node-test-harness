@@ -13,7 +13,7 @@
     "commit": "commit-wizard"
   },
   "dependencies": {
-    "should": "8.3.2",
+    "should": "8.4.0",
     "should-http": "0.0.4",
     "should-sinon": "0.0.5",
     "sinon": "1.17.4",
