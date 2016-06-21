@@ -94,5 +94,13 @@ describe('test-harness', () => {
 
   });
 
+  describe('run tests against static API', () => {
+
+    api_tester.configureStaticApi(data_store_api_static.createApiServer, config.get('test_helper.data_store_api.port'));
+
+    it('should be able to send request to static API and resolve without issues');
+
+  });
+
 });
 ```
