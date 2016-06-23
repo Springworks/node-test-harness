@@ -51,6 +51,7 @@ No need to require `should`, `sinon` or any of the plugins.
 
 ```js
 const autorestoredSandbox = require('@springworks/test-harness/autorestored-sandbox');
+const api_tester = require('@springworks/test-harness/api-tester');
 
 describe('test-harness', () => {
 
