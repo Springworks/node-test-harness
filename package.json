@@ -17,7 +17,7 @@
     "should-http": "0.0.4",
     "should-sinon": "0.0.5",
     "sinon": "1.17.4",
-    "mocha-teamcity-reporter": "1.0.0"
+    "mocha-teamcity-reporter": "1.0.2"
   },
   "devDependencies": {
     "babel-eslint": "6.1.2",
