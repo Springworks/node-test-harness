@@ -32,18 +32,6 @@ describe('test/test-harness-test.js', () => {
 
   });
 
-  describe('stubbing promises', () => {
-
-    it('should use the sinon-as-promised plugin', done => {
-      const test_stub = sinon.stub().resolves('foo');
-      test_stub().then(value => {
-        value.should.equal('foo');
-        done();
-      });
-    });
-
-  });
-
   describe('asserting http requests', () => {
 
     it('should use the should-http plugin', () => {
