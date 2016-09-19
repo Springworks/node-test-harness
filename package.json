@@ -17,7 +17,7 @@
     "should": "11.1.0",
     "should-http": "0.0.4",
     "should-sinon": "0.0.5",
-    "sinon": "1.17.5",
+    "sinon": "1.17.6",
     "sinon-as-promised": "4.0.2"
   },
   "devDependencies": {
