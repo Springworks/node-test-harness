@@ -24,6 +24,7 @@ $ npm i -D @springworks/test-harness
 
 ## Usage
 
+### Test-harness
 Require `@springworks/test-harness` using the `--require` option when running tests with mocha.
 
 ```
@@ -44,6 +45,9 @@ Example `mocha.opts` file:
 --require @springworks/test-harness
 ```
 
+### Commonly used random identifiers
+Require `@springworks/test-harness/test-data-helper` and call the
+functions as needed.
 
 ## Example test file
 
