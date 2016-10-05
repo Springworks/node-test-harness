@@ -13,6 +13,8 @@
     "commit": "commit-wizard"
   },
   "dependencies": {
+    "@springworks/mongoose-connection": "3.2.6",
+    "checkdigit": "1.1.1",
     "mocha-teamcity-reporter": "1.1.1",
     "should": "11.1.0",
     "should-http": "0.0.4",
