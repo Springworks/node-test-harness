@@ -1,16 +1,13 @@
 'use strict';
 
-const mongoose_connection = require('@springworks/mongoose-connection');
+const crypto = require('crypto');
 const checkdigit = require('checkdigit');
 
-const ObjectId = mongoose_connection.mongoose.Types.ObjectId;
 const mod10 = checkdigit.mod10;
 
 const lower_case_chars = 'abcdefghijklmnopqrstuvwxyz';
 const digits_alphabet = '0123456789';
 const short_id_alphabet = digits_alphabet + lower_case_chars + lower_case_chars.toUpperCase();
-
-
 
 function randomStringFromAlphabet(length, alphabet) {
   let str = '';
@@ -20,16 +17,8 @@ function randomStringFromAlphabet(length, alphabet) {
   return str;
 }
 
-function uniqueObjectId() {
-  return new ObjectId();
-}
-
-function toObjectId(object_id_string) {
-  return new ObjectId(object_id_string);
-}
-
 function uniqueObjectIdString() {
-  return uniqueObjectId().toString();
+  return crypto.randomBytes(12).toString('hex');
 }
 
 function uniquePrefixedString(prefix) {
@@ -37,8 +26,7 @@ function uniquePrefixedString(prefix) {
 }
 
 function uniqueEmail() {
-  const id = new ObjectId();
-  const s = id.toString();
+  const s = uniqueObjectIdString();
   return `test.user+${s}@machinetohuman.com`;
 }
 
@@ -86,9 +74,6 @@ function randomLetters(length) {
 }
 
 module.exports = {
-  ObjectId: ObjectId,
-  toObjectId: toObjectId,
-  uniqueObjectId: uniqueObjectId,
   uniqueObjectIdString: uniqueObjectIdString,
   uniquePrefixedString: uniquePrefixedString,
   uniqueEmail: uniqueEmail,

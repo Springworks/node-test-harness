@@ -2,11 +2,6 @@ const test_data_helper = require('../test-data-helper');
 
 describe('test/test-data-helper-test.js', () => {
 
-  it('uniqueObjectId', () => {
-    test_data_helper.uniqueObjectId()
-      .should.be.instanceOf(test_data_helper.ObjectId);
-  });
-
   describe('uniqueObjectIdString', () => {
 
     it('should return a string', () => {
