@@ -15,7 +15,7 @@
   "dependencies": {
     "checkdigit": "1.1.1",
     "mocha-teamcity-reporter": "1.1.1",
-    "should": "11.1.0",
+    "should": "11.1.1",
     "should-http": "0.0.4",
     "should-sinon": "0.0.5",
     "sinon": "1.17.6",
