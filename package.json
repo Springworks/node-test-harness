@@ -22,7 +22,7 @@
     "sinon-as-promised": "4.0.2"
   },
   "devDependencies": {
-    "babel-eslint": "7.0.0",
+    "babel-eslint": "7.1.0",
     "coveralls": "2.11.14",
     "eslint": "3.8.1",
     "eslint-config-springworks": "7.0.6",
