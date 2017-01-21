@@ -7,6 +7,8 @@
 
 # test-harness
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Springworks/node-test-harness.svg)](https://greenkeeper.io/)
+
 Setup `should` and `sinon` with plugins.
 
 - Add [should](https://www.npmjs.com/package/should) to the global scope.
