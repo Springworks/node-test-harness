@@ -19,7 +19,7 @@
     "should-http": "0.1.0",
     "should-sinon": "0.0.5",
     "sinon": "1.17.7",
-    "sinon-as-promised": "4.0.2"
+    "sinon-as-promised": "4.0.3"
   },
   "devDependencies": {
     "babel-eslint": "7.1.1",
