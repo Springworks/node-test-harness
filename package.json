@@ -18,8 +18,7 @@
     "should": "^11.2.1",
     "should-http": "^0.1.0",
     "should-sinon": "^0.0.5",
-    "sinon": "^2.4.1",
-    "sinon-as-promised": "^4.0.2"
+    "sinon": "^2.4.1"
   },
   "devDependencies": {
     "babel-eslint": "^7.1.1",
