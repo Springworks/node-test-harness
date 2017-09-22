@@ -1,0 +1,14 @@
+export function uniqueObjectIdString(): string;
+export function uniquePrefixedString(prefix: string): string;
+export function uniqueEmail(): string;
+export function randomIMEI(): string;
+export function randomIMSI(): string;
+export function randomShortId(): string;
+export function uniqueFleetId(): string;
+export function uniqueObjectIdString(): string;
+export function uniqueUserId(): string;
+export function uniqueDeviceId(): string;
+export function randomVin(): string;
+export function randomRegNumber(): string;
+export function randomNumbers(length: number): string;
+export function randomLetters(length: number): string;
