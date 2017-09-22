@@ -49,8 +49,5 @@
   "bugs": {
     "url": "https://github.com/Springworks/node-test-harness/issues"
   },
-  "homepage": "https://github.com/Springworks/node-test-harness#readme",
-  "release": {
-    "analyzeCommits": "simple-commit-message"
-  }
+  "homepage": "https://github.com/Springworks/node-test-harness#readme"
 }
