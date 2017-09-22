@@ -48,7 +48,7 @@ Example `mocha.opts` file:
 
 ### Commonly used random identifiers
 Require `@springworks/test-harness/test-data-helper` and call the
-functions as needed.
+functions as needed. These have TypeScript definitions.
 
 ## Example test file
 
