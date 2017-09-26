@@ -52,5 +52,8 @@
   "homepage": "https://github.com/Springworks/node-test-harness#readme",
   "release": {
     "analyzeCommits": "simple-commit-message"
+  },
+  "engines": {
+    "node": "6"
   }
 }
