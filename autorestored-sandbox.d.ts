@@ -1,2 +1,2 @@
 import { SinonSandbox } from 'sinon';
-export function autorestoredSandbox(): SinonSandbox;
+export default function autorestoredSandbox(): SinonSandbox;
