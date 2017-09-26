@@ -13,6 +13,7 @@
     "commit": "commit-wizard"
   },
   "dependencies": {
+    "@types/sinon": "^2.3.5",
     "checkdigit": "^1.1.1",
     "mocha-teamcity-reporter": "^1.1.1",
     "should": "^11.2.1",
@@ -49,5 +50,8 @@
   "bugs": {
     "url": "https://github.com/Springworks/node-test-harness/issues"
   },
-  "homepage": "https://github.com/Springworks/node-test-harness#readme"
+  "homepage": "https://github.com/Springworks/node-test-harness#readme",
+  "release": {
+    "analyzeCommits": "simple-commit-message"
+  }
 }
