@@ -33,7 +33,7 @@
     "greenkeeper-postpublish": "^1.0.1",
     "istanbul": "^0.4.5",
     "mocha": "^3.2.0",
-    "pre-git": "3.14.1",
+    "pre-git": "^3.15.3",
     "semantic-release": "^8.0.3"
   },
   "config": {
@@ -50,9 +50,6 @@
     "url": "https://github.com/Springworks/node-test-harness/issues"
   },
   "homepage": "https://github.com/Springworks/node-test-harness#readme",
-  "release": {
-    "analyzeCommits": "simple-commit-message"
-  },
   "engines": {
     "node": "6"
   }
