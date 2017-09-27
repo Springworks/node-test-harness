@@ -49,6 +49,6 @@
   },
   "homepage": "https://github.com/Springworks/node-test-harness#readme",
   "engines": {
-    "node": "6"
+    "node": ">=6"
   }
 }
