@@ -1,1 +1,1 @@
-export function configureStaticApi(apiServerCreator: Function, port: number);
+export function configureStaticApi(apiServerCreator: Function, port: number): void;
