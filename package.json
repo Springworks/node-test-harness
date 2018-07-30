@@ -15,7 +15,7 @@
     "@types/sinon": "^2.3.5",
     "checkdigit": "^1.1.1",
     "mocha-teamcity-reporter": "^1.1.1",
-    "should": "^11.2.1",
+    "should": "^13.2.3",
     "should-http": "^0.1.0",
     "should-sinon": "^0.0.5",
     "sinon": "^2.4.1"
