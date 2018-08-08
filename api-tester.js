@@ -8,16 +8,36 @@ const api = {
     assert(typeof apiServerCreator === 'function', 'apiServerCreator has to be function to create static api');
     assert(port, 'Port has to be specified');
 
+    let beforeFn;
+    if (typeof before === 'function') {
+      beforeFn = before;
+    }
+    else if (typeof beforeAll === 'function') {
+      beforeFn = beforeAll;
+    }
+
+    assert(beforeFn, 'Must have either before() or beforeAll() available');
+
+    let afterFn;
+    if (typeof after === 'function') {
+      afterFn = after;
+    }
+    else if (typeof afterAll === 'function') {
+      afterFn = afterAll;
+    }
+
+    assert(afterFn, 'Must have either after() or afterAll() available');
+
     let server;
 
-    before(() => {
+    beforeFn(() => {
       return apiServerCreator({ port: port }).then(created_server => {
         server = created_server;
         return server.start();
       });
     });
 
-    after(() => {
+    afterFn(() => {
       return server.stop();
     });
   },
