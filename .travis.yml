@@ -1,20 +1,23 @@
 sudo: false
 language: node_js
 node_js:
-  - '8'
+- '8'
 cache:
   directories:
-    - node_modules
+  - node_modules
 notifications:
   email: false
 before_script:
-  - npm prune
+- npm prune
 script:
-  - npm run lint
-  - npm run test-cov
+- npm run lint
+- npm run test-cov
 after_success:
-  - npm run coveralls
-  - npm run semantic-release
+- npm run coveralls
+- npm run semantic-release
 branches:
   except:
-    - /^v\d+\.\d+\.\d+$/
+  - "/^v\\d+\\.\\d+\\.\\d+$/"
+env:
+  matrix:
+    secure: B+1jXxY0JokTzBS3/J3KtXwdPJuI27PzOOy8zB9dbCXDlxvCv7WS6WHzjbehLJLyS6+Q/kn2GB16dKLwaNIaV8N7Xl1W2cDil2SF43MmtG7wKmROrf6XgEQvonty5U2wZgtScksi75vp+B0vvoPuNoHSJxzJvfJ82w+MtLa6k01N3zRo3ViM8IjIlk0yLpzZerOXDtM/TVfGgfEz7Ix/bHsrlBMuR8shC2szeb0h/ZsEysGU55dpd3uDdlZRj26E8IjIo9b44JV+UcXT2hSjSl+TPUEFvOtfL0tRZ9soHXCcPDZCtJL+Qb/BPVVbglUtAIJFLk9apbroWYqJa9c6UQNp0jVqXj+2ll4erJxwNwkw3VvkoQTiMHC1gNw2MhUwE7YK9yv2wGDA7bfwbPVDoXyga0Q9g9RLnGGhXV60DuUbeyEUxvvnEHc2vZvhii780j4m1cFArYNzdiwqvHKQrokpaXKLRGouZcK4Wpsekelz/AiW0HR6g2Ij/fDqT8h1I4ikNOpygsIirUIdgTADFyB3Dk4BeGRCm8MrGZ1tpd+TmQ560fR5dYKRt9Jm5s1SgYTJ3Ed3cNTu0D920nLgqPNgK6OG0SiwawBnXrZHRcQHkZ2aXGkbrRfaIoJJzUzwfqmCLF/jN6Fb7xcb9cylM211wTM4bjtRALhBIgiW0No=
